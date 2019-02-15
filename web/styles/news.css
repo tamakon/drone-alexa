@@ -1,0 +1,30 @@
+body {
+  background-color: #EBEBE3;
+  color: #2B2B28
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+  border-bottom: solid 3px #C19898;
+}
+
+.header {
+  background-color: #4A4A48;
+  height: 44px;
+  padding: 5px;
+}
+.header > .logo {
+  margin: auto;
+}
+
+.article .character {
+  font-weight: bold;
+}
+.article .character.green {
+  color: #4F664A;
+}
+.article .character.blue {
+  color: #4a5466;
+}
