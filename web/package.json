@@ -7,7 +7,7 @@
     "firebase-tools": "^6.3.1"
   },
   "scripts": {
-    "firebase-start": "npx firebase start",
+    "firebase-serve": "npx firebase serve",
     "firebase-deploy": "npx firebase deploy"
   },
   "author": "",
