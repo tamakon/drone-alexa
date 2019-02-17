@@ -2,13 +2,13 @@
   "name": "drone-alexa",
   "version": "1.0.0",
   "description": "",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "firebase-tools": "^6.3.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "firebase-start": "npx firebase start",
+    "firebase-deploy": "npx firebase deploy"
   },
   "author": "",
   "license": "ISC"
