@@ -24,3 +24,14 @@ But do not worry about it because firebase team say [it does not directly affect
 │ More info     │ https://nodesecurity.io/advisories/577                       │
 └───────────────┴──────────────────────────────────────────────────────────────┘
 ```
+
+## Start on local environment
+```bash
+$ npm run firebase-serve
+```
+
+## Deploy to firebase environment
+Before deploying, you should execute command `npx firebase login` and `npx firebase use drone-alexa`.
+```bash
+$ npm run firebase-deploy
+```
