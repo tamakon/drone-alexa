@@ -1,7 +1,15 @@
+/*********************
+ ベーススタイル
+***********************/
 body {
   background-color: #EBEBE3;
   color: #2B2B28
 }
+
+a:hover {
+  text-decoration: none;
+}
+
 
 h1 {
   font-size: 24px;
@@ -13,10 +21,12 @@ h2 {
   border-bottom: solid 3px #C19898;
 }
 
+/*********************
+ 画面スタイル
+***********************/
 .header {
   background-color: #4A4A48;
-  height: 44px;
-  padding: 5px;
+  height: 48px;
 }
 
 .header > .logo {
@@ -26,6 +36,77 @@ h2 {
 .header > .logo > img {
   width: 120px;
   height: 36px;
+}
+
+.header > .menu-button {
+  margin: auto 0;
+  text-align: left;
+}
+
+.header > .menu-button.active {
+  background-color: #2B2B28;
+}
+
+.header > .translation {
+  margin: auto 0;
+  text-align: right;
+}
+
+.header > .translation.active {
+  background-color: #2B2B28;
+}
+
+.header > .translation i, .header > .menu-button i {
+  padding: 12px 0;
+  font-size: 1.5rem;
+  color: #F2E1DA;
+}
+
+.header-interactive {
+  position: relative;
+}
+
+.header-interactive > .menu-area {
+  background-color: #2B2B28;
+  position: absolute;
+  left: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+.header-interactive > .menu-area ul {
+  margin: 1rem 0;
+}
+
+.header-interactive > .menu-area ul > li {
+  margin: 1rem 0;
+}
+
+.header-interactive > .menu-area ul > li > a {
+  font-size: 0.825rem;
+  color: #E6C5C5;
+}
+
+.header-interactive > .translation-area {
+  background-color: #2B2B28;
+  color: #E6C5C5;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+.header-interactive > .translation-area ul {
+  margin: 1rem 0;
+}
+
+.header-interactive > .translation-area ul > li {
+  margin: 1rem 0;
+}
+
+.header-interactive > .translation-area ul > li > a {
+  font-size: 0.825rem;
+  color: #E6C5C5;
 }
 
 .article .content-header {
@@ -109,14 +190,11 @@ h2 {
   font-size: 0.825rem;
 }
 
-.menu-footer .link-list a:hover {
-  text-decoration: none;
-}
-
 .footer {
   color: #E6C5C5;
   background-color: #4A4A48;
-  padding: 1.5rem 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .footer .logo {

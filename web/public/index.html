@@ -9,16 +9,62 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 </head>
 <body>
 <div class="container">
   <div class="row header">
-    <div class="menu-button col-2">
+    <div class="menu-button col-auto" onclick="$('.menu-button').toggleClass('active');$('.menu-area').toggle();">
+      <i class="fas fa-bars"></i>
     </div>
     <div class="logo col-auto">
       <img src="images/logo.png" alt="spring quota">
     </div>
-    <div class="translation col-2">
+    <div class="translation col-auto"
+         onclick="$('.translation').toggleClass('active');$('.translation-area').toggle();">
+      <i class="fas fa-globe"></i>
+    </div>
+  </div>
+</div>
+<div class="header-interactive">
+  <div class="container menu-area" style="display: none;">
+    <div class="row">
+      <div class="col">
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://mind-network-revolution.work/">トップ</a>
+          </li>
+          <li>
+            <a href="https://mind-network-revolution.work/">ビジネス</a>
+          </li>
+          <li>
+            <a href="https://mind-network-revolution.work/">テクノロジー</a>
+          </li>
+          <li>
+            <a href="https://mind-network-revolution.work/">政治・経済</a>
+          </li>
+          <li>
+            <a href="https://mind-network-revolution.work/">キャリア・教育</a>
+          </li>
+          <li>
+            <a href="https://mind-network-revolution.work/">芸能・エンタメ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container translation-area" style="display: none;">
+    <div class="row">
+      <div class="col">
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://mind-network-revolution.work/">日本語</a>
+          </li>
+          <li>
+            <a href="https://mind-network-revolution.work/">English</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
