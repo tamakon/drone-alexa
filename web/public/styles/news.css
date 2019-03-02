@@ -2,9 +2,11 @@ body {
   background-color: #EBEBE3;
   color: #2B2B28
 }
+
 h1 {
   font-size: 24px;
 }
+
 h2 {
   margin-top: 2rem;
   font-size: 20px;
@@ -16,9 +18,11 @@ h2 {
   height: 44px;
   padding: 5px;
 }
+
 .header > .logo {
   margin: auto;
 }
+
 .header > .logo > img {
   width: 120px;
   height: 36px;
@@ -40,9 +44,7 @@ h2 {
 
 .article .content-header .tag span {
   padding: 2px 5px;
-
   border-radius: 5px;
-
 }
 
 .article .content-header .tag span.green {
@@ -63,9 +65,11 @@ h2 {
 .article .character {
   font-weight: bold;
 }
+
 .article .character.green {
   color: #4F664A;
 }
+
 .article .character.blue {
   color: #4a5466;
 }
@@ -85,4 +89,48 @@ h2 {
   left: 0;
   height: 100%;
   width: 100%;
+}
+
+.menu-footer {
+  color: #E6C5C5;
+  background-color: #2B2B28;
+}
+
+.menu-footer .link-list {
+  padding: 1rem 0;
+}
+
+.menu-footer .link-list ul > li {
+  margin: 0.5rem 0;
+}
+
+.menu-footer .link-list a {
+  color: inherit;
+  font-size: 0.825rem;
+}
+
+.menu-footer .link-list a:hover {
+  text-decoration: none;
+}
+
+.footer {
+  color: #E6C5C5;
+  background-color: #4A4A48;
+  padding: 1.5rem 0;
+}
+
+.footer .logo {
+  margin: auto;
+}
+
+.footer .logo > img {
+  width: 180px;
+  height: 54px;
+}
+
+.footer .copyright {
+  color: #F2E1DA;
+  text-align: center;
+  margin: 0.5rem 0;
+  font-size: 0.825rem;
 }
