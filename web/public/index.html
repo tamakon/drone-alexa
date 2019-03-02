@@ -14,14 +14,13 @@
 <body>
 <div class="container">
   <div class="row header">
-    <div class="menu-button col-auto" onclick="$('.menu-button').toggleClass('active');$('.menu-area').toggle();">
+    <div class="menu-button col-auto">
       <i class="fas fa-bars"></i>
     </div>
     <div class="logo col-auto">
       <img src="images/logo.png" alt="spring quota">
     </div>
-    <div class="translation col-auto"
-         onclick="$('.translation').toggleClass('active');$('.translation-area').toggle();">
+    <div class="translation col-auto">
       <i class="fas fa-globe"></i>
     </div>
   </div>
@@ -367,5 +366,21 @@
     </div>
   </div>
 </div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      const menuButton = $(".menu-button"),
+          menuArea = $(".menu-area"),
+          translationButton = $(".translation"),
+          translationArea = $(".translation-area");
+      menuButton.on("click", function() {
+          menuButton.toggleClass("active");
+          menuArea.toggle();
+      });
+      translationButton.on("click", function() {
+          translationButton.toggleClass("active");
+          translationArea.toggle();
+      });
+  });
+</script>
 </body>
 </html>
