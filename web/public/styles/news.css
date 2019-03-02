@@ -114,7 +114,7 @@ h2 {
 }
 
 .article {
-  margin: 2rem 0 3rem;
+  margin: 2rem auto 3rem;
 }
 
 .article .content-header {
