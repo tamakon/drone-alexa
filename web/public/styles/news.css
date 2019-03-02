@@ -24,6 +24,42 @@ h2 {
   height: 36px;
 }
 
+.article .content-header {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.article .content-header .timestamp {
+  font-family: Courier, serif;
+}
+
+.article .content-header .tag {
+  text-align: right;
+  font-family: Courier, serif;
+}
+
+.article .content-header .tag span {
+  padding: 2px 5px;
+
+  border-radius: 5px;
+
+}
+
+.article .content-header .tag span.green {
+  border: thin solid #4F664A;
+  color: #4F664A
+}
+
+.article .content-header .tag span.blue {
+  border: thin solid #4a5466;
+  color: #4a5466
+}
+
+.article .content-header .tag span.red {
+  border: thin solid #664A4A;
+  color: #664A4A
+}
+
 .article .character {
   font-weight: bold;
 }
