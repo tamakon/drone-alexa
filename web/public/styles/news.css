@@ -6,10 +6,14 @@ body {
   color: #2B2B28
 }
 
-a:hover {
-  text-decoration: none;
+a {
+  color: #664A4A;
 }
 
+a:hover {
+  text-decoration: none;
+  color: #664A4A;
+}
 
 h1 {
   font-size: 24px;
@@ -109,6 +113,10 @@ h2 {
   color: #E6C5C5;
 }
 
+.article {
+  margin: 2rem 0 3rem;
+}
+
 .article .content-header {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
@@ -116,6 +124,10 @@ h2 {
 
 .article .content-header .timestamp {
   font-family: Courier, serif;
+}
+
+.article a {
+  text-decoration: underline;
 }
 
 .article .content-header .tag {
@@ -141,6 +153,15 @@ h2 {
 .article .content-header .tag span.red {
   border: thin solid #664A4A;
   color: #664A4A
+}
+
+.article .content-header .author > img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.article .content-header .author > span {
+  font-weight: bold;
 }
 
 .article .character {
@@ -170,6 +191,45 @@ h2 {
   left: 0;
   height: 100%;
   width: 100%;
+}
+
+.author-detail .flex {
+  display: flex;
+  margin: 0 auto 1rem;
+  font-size: 0.825rem;
+}
+
+.author-detail .face img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.author-detail .text {
+  margin: auto 0.5rem;
+}
+
+.author-detail .text .name {
+  font-weight: bold;
+}
+
+.related-articles .related-item {
+  margin: 1rem 0;
+  display: flex;
+}
+
+.related-articles .related-item .title {
+  flex-basis: 70%;
+  font-size: .825rem;
+}
+
+.related-articles .related-item .image {
+  flex-basis: 30%;
+  flex-grow: 4;
+}
+
+.related-articles .image > img {
+  width: 100%;
+  height: 100%;
 }
 
 .menu-footer {
