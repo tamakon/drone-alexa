@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137361859-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137361859-1');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>まるでペット？！AIドローン「Suppole」を開発したMNR社長にインタビュー！ | Spring Quota</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles/news.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#e6c5c5">
+  <meta name="msapplication-TileColor" content="#e6c5c5">
+  <meta name="theme-color" content="#2b2b28">
+</head>
+<body>
+<div class="container">
+  <div class="row header">
+    <div class="menu-button col-auto">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="logo col-auto">
+      <img src="images/logo.png" alt="spring quota">
+    </div>
+    <div class="translation col-auto">
+      <i class="fas fa-globe"></i>
+    </div>
+  </div>
+</div>
+<div class="header-interactive">
+  <div class="container menu-area" style="display: none;">
+    <div class="row">
+      <div class="col">
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://mind-network-revolution.work/">トップ</a>
+          </li>
+          <li>
+            <a href="https://mind-network-revolution.work/">ビジネス</a>
+          </li>
+          <li>
+            <a href="https://mind-network-revolution.work/">テクノロジー</a>
+          </li>
+          <li>
+            <a href="https://mind-network-revolution.work/">政治・経済</a>
+          </li>
+          <li>
+            <a href="https://mind-network-revolution.work/">キャリア・教育</a>
+          </li>
+          <li>
+            <a href="https://mind-network-revolution.work/">芸能・エンタメ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container translation-area" style="display: none;">
+    <div class="row">
+      <div class="col">
+        <ul class="list-unstyled">
+          <li>
+            <a href="/">日本語</a>
+          </li>
+          <li>
+            <a href="/index-en.html">English</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container article">
+  <div class="content-header">
+    <div class="row mb-2">
+      <div class="col-4 timestamp">2019.04.01</div>
+      <div class="col-8 tag">
+        <span class="blue">AI</span>
+        <span class="green">drone</span>
+        <span class="red">technology</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h1>まるでペット？！AIドローン「Suppole」を開発したMNR社長にインタビュー！</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="author">
+          <img src="images/face-yamashita.png" alt="face-yamashita" height=""/>
+          <span>山下 翔太</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row content-area">
+    <div class="col">
+      <p>
+        最先端技術と革新的アイデアで次々と新製品を発表していく
+        <a href="https://mind-network-revolution.work/">MNR（マインドネットワークレヴォリューション）</a>社。
+        今回はそんな会社の社長である原口広樹さんに「Suppole」開発の経緯、会社の思想、今後の展望について語っていただきました。
+      </p>
+      <p>原口さん、今日はよろしくお願いいたします。</p>
+      <p>
+        <img class="picture" src="images/interview1.jpg" alt="interview1">
+        <small>左：原口さん 右：山下</small>
+      </p>
+      <section>
+        <h2>Suppoleとは？</h2>
+        <p>
+          <span class="character green">山下：</span>
+          まず始めに、今回開発された「Suppole」とは一体どのような製品なのでしょうか？
+        </p>
+        <p>
+          <span class="character blue">原口さん：</span>
+          「Suppole」は、ドローンに音声識別機能を取り込んだAIアシスタントです。
+          最近、AIアシスタントが流行っていますよね。GoogleやAmazonなど名だたる大企業が精力を尽くしている状況です。
+          私は、最初に Google Home や Amazon Alexa を見たとき、違和感を感じてしまったんですね。
+          たしかに私達の声や発言に応答してくれるのは、手作業からの解放という意味では画期的でしたが、
+          "彼ら"をAIアシスタントと呼ぶには私の中でなにかが足りませんでした。
+          そして気づいたのです。<strong>"彼ら"は動いていなかった</strong>のです。
+          そもそも、アシスト(assist)の語源は「そばに(as)立つ(sist)」です。
+          しかし彼らは私がどこに行ったとしても、その場から動かないのです。このようなアシスタントがありえるでしょうか。いや、ありえない。
+          私は本当のアシスタントとは何かというのを知らしめたくなりました。本当の、"そばに立つ"AIアシスタントの誕生です。
+        </p>
+        <div class="video embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uE7d2a7b2nU"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>
+        <p>
+          <span class="character green">山下：</span>
+          なるほど。動くのが本当のAIアシスタントだ！という思いから本製品が作られたのですね。
+          しかし、AIアシスタントとしてはすでに存在するSiriやGoogle Homeで十分なように思えるのですが、 動くことによるメリットはあるのでしょうか？
+        </p>
+        <p>
+          <span class="character blue">原口さん：</span>
+          あなたの言うこともわかります。
+          わざわざ動かさなくても、既存のAIアシスタントのように通信で解決すればよいのではないか、ということですよね。
+          たしかにその方が効率的です。皆さん、効率が良い方が好きですよね。効率を追い求めた結果が今の世の中です。
+          結果的には効率を原因とする格差があり、目に見えるものだけが優先されます。
+          目に見えることはわかりやすく、わかりやすいことは理解の効率に繋がるからです。
+          皆さんは物事を理解しようとします。なぜなら知っていた方が今後の人生において効率が良いからです。
+          効率、効率、全て効率です。これはまるでキリスト教やイスラム教のように、効率という唯一神を信仰しているかのようです。
+        </p>
+        <p>
+          <img class="picture" src="images/interview3.jpg" alt="interview3">
+          <span></span>
+        </p>
+      </section>
+      <section>
+        <h2>MNRの思想</h2>
+        <p>
+          <span class="character blue">原口さん：</span>
+          おっと、話が逸れてしまいましたね（笑）。
+          私は新たな価値を作り出すことがイノベーションの本質だと理解しています。
+          つまり、<strong>私達は効率という根本的な価値以外の価値を生み出そうとしている</strong>のです。
+          実は「Suppole」という名前も「supportless（サポートしない）」から来ているんですよ。
+          皆さんもおそらく効率を追い求める日々に飽きているのではないでしょうか。もう頭打ちなのです。時代は変わりました。
+          では、私達が新しく生み出す価値とはなんなのか、ということになりますが、それは、<strong>「共存」</strong>です。別に色々な意味で捉えていただいて構いません。
+        </p>
+        <p>
+          <span class="character green">山下：</span>
+          ちょっとわからなくなってきたのですが（笑）、とりあえず「共存」というのは新しい価値なのでしょうか？
+          もともと共存という言葉はあるしそんなに新しくないんじゃないですかね...
+        </p>
+        <p>
+          <span class="character blue">原口さん：</span>
+          ここで言っている「共存」とはカッコつきの共存です。辞書で調べて出てくる共存とは意味が違います。
+          例えば政治の話で言うと、よりよい世界のために、昔から自由主義と社会主義がせめぎ合っています。
+          どちらかが理想の場合、どちらかの現実によりそれが阻害されているのです。
+          つまりは、自由と社会のどちらかを理想とするとき、私達はその理想に本質的な欠陥があることに気づいていないのです。
+          だからといって中庸を目指すのは一種の諦めです。そうなるとどちらも要求するという案が出てきますが、
+          それは理想の欠陥に気づかない限りは矛盾に遭遇することになるでしょう。
+          いい加減、アウフヘーベン（止揚）したほうが良いと思います。
+        </p>
+        <p>
+          <img class="picture" src="images/interview4.jpg" alt="interview4">
+          <span></span>
+        </p>
+        <p>
+          「共存」とは、そのままの意味ですと共に存在するという意味です。
+          これを、自身が能動的に行う行為として捉えるのではなく、そもそもそのような状態である、という認識で捉えてください。
+          そもそも社会は自由であり自由は社会であると捉えるのです。
+          本質の部分において自由主義と社会主義はともに存在する概念と考えるのです。
+          それぞれの主義における理想の欠陥を受け入れ、それぞれの主義を共存している主義と受け入れることで論理的な解決が行われます。
+          では実践的、具体的な解決としてはどうなるかというと、それはどちらかの主義における理想を諦めることではないのです。
+          そもそもそれらは共存しているので諦めるという行為自体がなくなるのです。つまりは「共存している」ということを理解すればいいのです。
+        </p>
+        <p>
+          <img class="picture" src="images/interview6.jpg" alt="interview6">
+          <span></span>
+        </p>
+        <p>
+          <span class="character green">山下：</span>
+          えっと... つまりどういうことですか？
+        </p>
+        <p>
+          <span class="character blue">原口さん：</span>
+          （笑）<br>
+          いろいろ言いましたが、要は言葉の過ちを認めるということです。
+          言葉とはdefinition(現実世界に区切りをつけること)であり、目に見えるものにするということなのです。
+          この言葉という発明自体に限界を認めるのです。
+          まずは機械との共存によってそれを理解していただこうという意向により今回の製品も作られたのですね。
+        </p>
+        <p>
+          <span class="character green">山下：</span>
+          え？動くAIアシスタントを作るという目的じゃなかったんですか？
+        </p>
+        <p>
+          <span class="character blue">原口さん：</span>
+          まあそれは先程いいました目的に対する手段でしかないですね（笑）。
+          目的のためなら手段を選ばない、というのはこういうことを言うんですかね〜。
+        </p>
+        <p>
+          <span class="character green">山下：</span>
+          とりあえず、先程おっしゃっていた自由主義とか社会主義の部分はよくわからなかったのですが、
+          私達の考え方が間違っているのでそれを正すための活動だという認識で良いでしょうか？
+        </p>
+        <p>
+          <span class="character blue">原口さん：</span>
+          はい。新しい「共存」という価値は、まず言葉で理解しようとすることの限界を理解してもらうところから始まります。 感覚の話なのです。
+          科学の話では量子力学という学問がありますが、どうやら真と偽が観測しない限りわからないのが量子だという話があるようです。
+          これは、論理上は真と偽が共存していると言えますね。
+          こういった事例からも、いろいろな物事が共存という価値に近づきつつあることをひしひしと感じますね。
+        </p>
+        <p>
+          <span class="character green">山下：</span>
+          感覚の話と言われてしまうともはやインタビューが成り立たなくなってしまいます（笑）。
+          言葉や効率といったものの限界を知った先に、原口さんがおっしゃる「共存」という価値は現実社会にはどのような影響を与えるのでしょうか？
+        </p>
+        <p>
+          <span class="character blue">原口さん：</span>
+          まずは、皆さんを縛る柵（しがらみ）からの解放が始まるでしょう。
+          皆さんは言葉によって考え方を縛られています。
+          言葉をやめてありのままを受け入れていくことにより、自ずと世界自体が問題を問題とすることをやめると思います。
+          そうです。受け入れるのです。能動の時代から受容の時代に変わっているのです。
+          スピリチュアルの世界ではみずがめ座の時代と言われますね。
+          解放の時代であり、心のネットワークにおける一つのピアとなるのです。
+        </p>
+        <p>
+          <img class="picture" src="images/interview7.jpg" alt="interview7">
+          <span></span>
+        </p>
+        <p>
+          <span class="character green">山下：</span>
+          なるほど。MNRさんの目指す心のネットワーク革命につながる第一歩というところでしょうか。
+          共存という価値がいろいろなところで始まっているという認識でいることがわかりました。
+        </p>
+        <p>
+          <span class="character blue">原口さん：</span>
+          私の提唱する「共存」は「効率」という価値を超越すると信じています。
+          来たる心のネットワーク革命（MNR）に向けて私達は一度、価値という凝り固まった観念を打ち破る必要があります。
+          私が想定するに心のネットワーク時代には「価値」という概念はなくなっているでしょう。
+          私達MNRは、皆さんを縛り付けるこの「価値」という概念から解放し、意識のレベルを向上させて皆さんにMNRへの準備をしていただきます。
+        </p>
+      </section>
+      <section>
+        <h2>未知の領域を目指すMNRの今後の方針とは！</h2>
+        <p>
+          <span class="character green">山下：</span>
+          心のネットワーク革命に向けての第1歩として、「Suppole」を開発したMNR社ですが、
+          今後はどのような取り組みをしていくのでしょうか？
+        </p>
+        <p>
+          <img class="picture" src="images/interview5.jpg" alt="interview5">
+          <span></span>
+        </p>
+        <p>
+          <span class="character blue">原口さん：</span>
+          デリダじゃないですが、引き続き「脱効率」を図り、本質を理解していただくための機会を提供する製品を作っていこうと思います。
+          デリダといえば、MNRが行おうとしているのは差延へのまなざし自体に対する反省活動と言えるかもしれません。
+          私達はまなざしによって世界を認識しますが、その眼差しの行為自体に自らの誤解が含まれていることを反省するのです。
+          すみません。また話がそれましたね。新製品の詳細についてはあまり言えないのでこれ以上はちょっと...（笑）
+        </p>
+        <p>
+          <span class="character green">山下：</span>
+          そこをちょっとばかし教えていただきたいのです！次の製品も実物などはあるのでしょうか。
+        </p>
+        <p>
+          <span class="character blue">原口さん：</span>
+          ありますね。今後はもののデザインからも脱効率を図る予定なので。デザインは効率を重視していますが、美術的な観点でそこを攻めます！
+        </p>
+        <p>
+          <span class="character green">山下：</span>
+          おお、脱効率のためであればどの領域にも手をのばすんですね。
+          是非頑張っていただいて心のネットワーク革命を実現していただきたいです。
+        </p>
+        <p>
+          <span class="character blue">原口さん：</span>
+          弊社のSuppole、是非山下さんにも購入していただきたいですね！
+        </p>
+        <p>
+          <span class="character green">山下：</span>
+          いいですね。動くAIアシスタント。気が狂ったら買ってみようと思います。
+        </p>
+        <p>
+          本日はいろいろとお話していただきありがとうございました！
+        </p>
+        <p>
+          <img class="picture" src="images/mnr-members.JPG" alt="mnr-member">
+          <span>MNR社の皆さん</span>
+        </p>
+      </section>
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container author-detail">
+  <div class="row">
+    <div class="col flex">
+      <div class="face">
+        <img src="images/face-yamashita.png" alt="face-yamashita"/>
+      </div>
+      <div class="text">
+        <div class="name">山下 翔太</div>
+        <div class="description">Spring Quota・オールラウンドエディター</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container related-articles">
+  <div class="row">
+    <div class="col">
+      <h2>関連記事</h2>
+      <a href="https://www.asahi.com/articles/ASM2V5Q15M2VPLFA006.html">
+        <div class="related-item">
+          <div class="title">
+            避雷線の点検、人から自動追尾のドローンに　関電導入
+          </div>
+          <div class="image">
+            <img src="https://www.asahicom.jp/articles/images/AS20190226004104_commL.jpg" alt="article image">
+          </div>
+        </div>
+      </a>
+      <a href="https://dronenews-japan.com/news/wa2019021521/">
+        <div class="related-item">
+          <div class="title">
+            米オクラホマ州政府、新たなドローン規制法案を検討
+          </div>
+          <div class="image">
+            <img src="https://dronenews-japan.com/wp/wp-content/uploads/2019/02/Drone2019-02-15.jpeg"
+                 alt="article image">
+          </div>
+        </div>
+      </a>
+      <a href="https://eetimes.jp/ee/articles/1901/25/news034.html">
+        <div class="related-item">
+          <div class="title">
+            ドローン同士が直接通信、ニアミスを自動で回避
+          </div>
+          <div class="image">
+            <img src="https://image.itmedia.co.jp/ee/articles/1901/25/tm_190125nict02.jpg" alt="article image">
+          </div>
+        </div>
+      </a>
+      <a href="https://www.drone.jp/news/20190226122034.html">
+        <div class="related-item">
+          <div class="title">
+            ドローンとAI 2.0：ドローンデータ分析から見る産業への実用展開
+          </div>
+          <div class="image">
+            <img src="https://www.drone.jp/wpdronenews/wp-content/uploads/2019/02/use-cases.jpg" alt="article image">
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="container menu-footer">
+  <div class="row link-list">
+    <div class="col">
+      <ul class="row list-unstyled">
+        <li class="col-6">
+          <a href="https://mind-network-revolution.work/">Spring Quota について</a>
+        </li>
+        <li class="col-6">
+          <a href="https://mind-network-revolution.work/">コメントガイドライン</a>
+        </li>
+        <li class="col-6">
+          <a href="https://mind-network-revolution.work/">運用会社</a>
+        </li>
+        <li class="col-6">
+          <a href="https://mind-network-revolution.work/">FAQ</a>
+        </li>
+        <li class="col-6">
+          <a href="https://mind-network-revolution.work/">プライバシーポリシー</a>
+        </li>
+        <li class="col-6">
+          <a href="https://mind-network-revolution.work/">利用規約</a>
+        </li>
+        <li class="col-6">
+          <a href="https://mind-network-revolution.work/">お問い合わせ</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container footer">
+  <div class="row">
+    <div class="logo col-auto">
+      <img src="images/logo.png" alt="spring quota">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="copyright">
+        Copyright © Spring Quota, Inc. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      const menuButton = $(".menu-button"),
+          menuArea = $(".menu-area"),
+          translationButton = $(".translation"),
+          translationArea = $(".translation-area");
+      menuButton.on("click", function() {
+          menuButton.toggleClass("active");
+          menuArea.toggle();
+      });
+      translationButton.on("click", function() {
+          translationButton.toggleClass("active");
+          translationArea.toggle();
+      });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,274 @@
+/*********************
+ ベーススタイル
+***********************/
+body {
+  background-color: #EBEBE3;
+  color: #2B2B28
+}
+
+a {
+  color: #664A4A;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #664A4A;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 20px;
+  border-bottom: solid 3px #C19898;
+}
+
+/*********************
+ 画面スタイル
+***********************/
+.header {
+  background-color: #4A4A48;
+  height: 48px;
+}
+
+.header > .logo {
+  margin: auto;
+}
+
+.header > .logo > img {
+  width: 120px;
+  height: 36px;
+}
+
+.header > .menu-button {
+  margin: auto 0;
+  text-align: left;
+}
+
+.header > .menu-button.active {
+  background-color: #2B2B28;
+}
+
+.header > .translation {
+  margin: auto 0;
+  text-align: right;
+}
+
+.header > .translation.active {
+  background-color: #2B2B28;
+}
+
+.header > .translation i, .header > .menu-button i {
+  padding: 12px 0;
+  font-size: 1.5rem;
+  color: #F2E1DA;
+}
+
+.header-interactive {
+  position: relative;
+}
+
+.header-interactive > .menu-area {
+  background-color: #2B2B28;
+  position: absolute;
+  left: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+.header-interactive > .menu-area ul {
+  margin: 1rem 0;
+}
+
+.header-interactive > .menu-area ul > li {
+  margin: 1rem 0;
+}
+
+.header-interactive > .menu-area ul > li > a {
+  font-size: 0.825rem;
+  color: #E6C5C5;
+}
+
+.header-interactive > .translation-area {
+  background-color: #2B2B28;
+  color: #E6C5C5;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+.header-interactive > .translation-area ul {
+  margin: 1rem 0;
+}
+
+.header-interactive > .translation-area ul > li {
+  margin: 1rem 0;
+}
+
+.header-interactive > .translation-area ul > li > a {
+  font-size: 0.825rem;
+  color: #E6C5C5;
+}
+
+.article {
+  margin: 2rem auto 3rem;
+}
+
+.article .content-header {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.article .content-header .timestamp {
+  font-family: Courier, serif;
+}
+
+.article a {
+  text-decoration: underline;
+}
+
+.article .content-header .tag {
+  text-align: right;
+  font-family: Courier, serif;
+}
+
+.article .content-header .tag span {
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.article .content-header .tag span.green {
+  border: thin solid #4F664A;
+  color: #4F664A
+}
+
+.article .content-header .tag span.blue {
+  border: thin solid #4a5466;
+  color: #4a5466
+}
+
+.article .content-header .tag span.red {
+  border: thin solid #664A4A;
+  color: #664A4A
+}
+
+.article .content-header .author > img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.article .content-header .author > span {
+  font-weight: bold;
+}
+
+.article .character {
+  font-weight: bold;
+}
+
+.article .character.green {
+  color: #4F664A;
+}
+
+.article .character.blue {
+  color: #4a5466;
+}
+
+.article .picture {
+  width: 100%
+}
+
+.article .video {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.article .video > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.author-detail .flex {
+  display: flex;
+  margin: 0 auto 1rem;
+  font-size: 0.825rem;
+}
+
+.author-detail .face img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.author-detail .text {
+  margin: auto 0.5rem;
+}
+
+.author-detail .text .name {
+  font-weight: bold;
+}
+
+.related-articles .related-item {
+  margin: 1rem 0;
+  display: flex;
+}
+
+.related-articles .related-item .title {
+  flex-basis: 70%;
+  font-size: .825rem;
+}
+
+.related-articles .related-item .image {
+  flex-basis: 30%;
+  flex-grow: 4;
+}
+
+.related-articles .image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-footer {
+  color: #E6C5C5;
+  background-color: #2B2B28;
+}
+
+.menu-footer .link-list {
+  padding: 1rem 0;
+}
+
+.menu-footer .link-list ul > li {
+  margin: 0.5rem 0;
+}
+
+.menu-footer .link-list a {
+  color: inherit;
+  font-size: 0.825rem;
+}
+
+.footer {
+  color: #E6C5C5;
+  background-color: #4A4A48;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer .logo {
+  margin: auto;
+}
+
+.footer .logo > img {
+  width: 180px;
+  height: 54px;
+}
+
+.footer .copyright {
+  color: #F2E1DA;
+  text-align: center;
+  margin: 0.5rem 0;
+  font-size: 0.825rem;
+}
